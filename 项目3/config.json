@@ -1,0 +1,46 @@
+{
+    "camera_id": 0,
+    "window_name": "kyyy",
+    "window_width": 960,
+    "window_height": 720,
+
+    "keyboard_alpha": 0.25,
+    "keyboard_position": "left",
+    "keyboard_size_ratio": 0.35,
+
+    "dwell_frames": 15,
+    "debounce_frames": 25,
+    "global_cooldown_seconds": 0.3,
+    "smoothing_alpha": 0.4,
+    "min_detection_confidence": 0.7,
+    "min_tracking_confidence": 0.5,
+
+    "show_debug": true,
+    "show_fps": true,
+    "show_landmarks": false,
+    "flip_horizontal": true,
+
+    "margin_px": 6,
+    "font_scale": 1.2,
+    "border_thickness": 2,
+    "label_thickness": 2,
+    "pinch_threshold": 0.06,
+
+    "key_highlight_color": [0, 255, 0],
+    "key_hover_color": [255, 200, 60],
+    "key_normal_color": [200, 200, 200],
+    "key_border_color": [140, 140, 140],
+    "key_text_color": [255, 255, 255],
+    "keyboard_bg_color": [20, 20, 20],
+
+    "mouse_pinch_threshold": 0.08,
+    "mouse_orchid_mid_max": 0.18,
+    "mouse_finger_spread_min": 0.15,
+    "mouse_dwell_frames": 5,
+    "mouse_scroll_deadzone": 0.015,
+    "mouse_scroll_gain": 8.0,
+    "mouse_smoothing_alpha": 0.30,
+    "mouse_dead_zone": 0.002,
+    "mouse_gain_x": 1.8,
+    "mouse_gain_y": 1.8
+}

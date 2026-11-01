@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>联系 | kyrrhen 的小站 · 第 5 话</title>
+    <meta name="description" content="联系 kyrrhen：邮箱与社交媒体。">
+    <meta name="theme-color" content="#FAF8F3">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23FAF8F3'/%3E%3Crect x='6' y='6' width='52' height='52' fill='%23D9402C'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='monospace' font-size='30' font-weight='bold' fill='%23fff'%3EK%3C/text%3E%3C/svg%3E">
+    <script>document.documentElement.classList.add('js');</script>
+    <link rel="stylesheet" href="assets/css/common.css">
+</head>
+<body>
+    <button class="to-top" aria-label="返回顶部">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+    </button>
+
+    <header class="wrap">
+        <div class="manga-head">
+            <div class="manga-title">
+                <span class="issue">第 5 话</span>
+                联系
+            </div>
+            <span class="serial">欢迎来信</span>
+            <span class="page-no">PAGE 05</span>
+        </div>
+        <nav class="chapter-tabs">
+            <a href="index.html">首页</a>
+            <a href="照片/work.html">番剧</a>
+            <a href="想法/想法页.html">文章</a>
+            <a href="关于作者/page.html">关于</a>
+            <a class="active" href="联系.html">联系</a>
+        </nav>
+    </header>
+
+    <main class="wrap wrap-narrow" style="padding-bottom: 30px;">
+        <p class="narration" style="margin-top: 10px;"><span>作者独白：</span>想聊技术、聊动画，或者只是路过打个招呼，都可以。邮箱写在下面，点一下能复制。</p>
+
+        <div class="contact-card">
+            <div class="contact-item">
+                <span class="contact-label">邮箱</span>
+                <a href="mailto:yanjialong26@gmail.com" class="contact-link">yanjialong26@gmail.com</a>
+                <div class="copy-notice" id="copyNotice">已复制到剪贴板</div>
+                <div style="margin-top: 16px;">
+                    <button class="ko-ma-btn" onclick="copyEmail()">复制邮箱</button>
+                </div>
+            </div>
+
+            <div class="divider">
+                <svg viewBox="0 0 10 10"><rect x="2" y="2" width="6" height="6" transform="rotate(45 5 5)" fill="currentColor"/></svg>
+            </div>
+
+            <div class="contact-item">
+                <span class="contact-label">社交媒体</span>
+                <div class="social-links">
+                    <a href="https://github.com/kyrrhen" target="_blank" rel="noopener" class="social-link" title="GitHub" aria-label="GitHub">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.58 9.58 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.75c0 .26.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+                    </a>
+                    <a href="#" class="social-link" title="Dribbble" aria-label="Dribbble">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M5 8.5c5.2 2 10.6 2.4 15.5 1M8.6 3.6c2.6 4.4 3.8 9 3.5 13.7M20.9 10.2c-3.9 3.9-8.7 6-13.4 6"/></svg>
+                    </a>
+                    <a href="#" class="social-link" title="Behance" aria-label="Behance">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7h3.5a1.9 1.9 0 0 1 0 3.8H8V7zm0 3.8h4.3a2.3 2.3 0 0 1 0 4.6H8v-4.6zM16 9h4.4"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="wrap manga-foot">
+        <span>© <span data-year>2026</span> kyrrhen</span>
+        <span class="next">来信都会看到，回不回看缘分</span>
+        <span class="page-end">END OF PAGE 05</span>
+    </footer>
+
+    <script src="assets/js/common.js"></script>
+    <script>
+        function copyEmail() {
+            var email = 'yanjialong26@gmail.com';
+            var notice = document.getElementById('copyNotice');
+
+            function showNotice() {
+                notice.classList.add('show');
+                setTimeout(function () { notice.classList.remove('show'); }, 2000);
+            }
+
+            if (navigator.clipboard && window.isSecureContext) {
+                navigator.clipboard.writeText(email).then(showNotice).catch(function () {
+                    fallbackCopy();
+                });
+            } else {
+                fallbackCopy();
+            }
+
+            function fallbackCopy() {
+                var ta = document.createElement('textarea');
+                ta.value = email;
+                ta.style.position = 'fixed';
+                ta.style.opacity = '0';
+                document.body.appendChild(ta);
+                ta.select();
+                try {
+                    document.execCommand('copy');
+                    showNotice();
+                } catch (e) {
+                    notice.textContent = '复制失败，请手动复制';
+                    showNotice();
+                }
+                document.body.removeChild(ta);
+            }
+        }
+    </script>
+</body>
+</html>
